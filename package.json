@@ -1,7 +1,6 @@
 {
   "name": "framework-lgt8fx",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "LGT8FX Arduino Framework",
-  "license": "Apache-2.0",
-  "type": "framework"
+  "license": "Apache-2.0"
 }
