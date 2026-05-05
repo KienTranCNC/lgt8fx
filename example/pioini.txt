@@ -1,0 +1,14 @@
+
+
+[env:LGT8F328P]
+platform = https://github.com/KienTranCNC/pio-lgt8fx.git
+board = LGT8F328P
+framework = arduino
+monitor_speed = 115200
+board_build.cppstd = gnu++17
+build_unflags = -std=gnu++11
+build_flags =  -std=gnu++17
+               -Wl,-Map,.pio/build/${PIOENV}/firmware.map
+               -Wl,--cref
+lib_deps = https://github.com/KienTranCNC/FastAccelStepper.git
+platform_packages = framework-lgt8fx @ https://github.com/KienTranCNC/lgt8fx.git
