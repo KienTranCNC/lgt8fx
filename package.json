@@ -1,6 +1,10 @@
 {
-  "name": "framework-lgt8fx",
-  "version": "1.0.8",
-  "description": "LGT8FX Arduino Framework",
-  "license": "Apache-2.0"
+    "name": "framework-lgt8fx",
+    "version": "1.0.7",
+    "description": "LGT8Fx Arduino Framework",
+    "license": "LGPL-2.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KienTranCNC/lgt8fx.git"
+    }
 }
